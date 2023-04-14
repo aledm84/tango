@@ -90,15 +90,15 @@ footer {
 	background-position:center;
 }
 .slideHome1 {
-	background-image: url("img/carousel/01.jpg");
+	background-image: url("./img/carousel/01.jpg");
 }
 .slideHome2 {
-	background-image: url("img/carousel/02.jpg");
+	background-image: url("./img/carousel/02.jpg");
 }
 .slideHome3 {
-	background-image: url("img/carousel/03.jpg");
+	background-image: url("./img/carousel/03.jpg");
 }
 
 .headerMenu {
-	background-image: url("img/headers/menu.jpg");	
+	background-image: url("./img/headers/menu.jpg");	
 }
