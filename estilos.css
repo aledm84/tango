@@ -1,0 +1,104 @@
+body {
+	font-family:"Montserrat", "OpenSans", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 700;
+}
+
+#cabezal {
+	min-height:6rem;
+	background:white;
+}
+
+.cabezalColor{
+	background:black;
+	margin:1rem 0 1rem 0;
+}
+
+.nav-item {
+	margin:0 1rem;
+}
+
+.nav-item:last-child {
+	margin-right:0;
+}
+
+.aboutUs {
+	min-height:25rem;
+}
+
+.bg-blue {
+	background:blue;
+}
+
+.bg-green {
+	background:green;
+}
+
+.card {
+	border: none;
+	box-shadow: 0px 1px 5px #9f9f9fce;
+	transition: box-shadow .25s ease-in-out;
+}
+
+.card:hover {
+	box-shadow: 0px 0px 20px #9f9f9fff;	
+}
+
+.card-body {
+	display:flex;
+	flex-direction:column;
+}
+
+.card-body .btn {
+	/*width:100%;*/
+	align-self:flex-end;
+}
+
+form.maquetacion {
+	background:blue !important;
+	min-height:35rem;
+	color:white;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+footer {
+	min-height:5rem;
+}
+
+/*#footerLogo {
+	width:6rem;
+}*/
+
+#socialMedia {
+	display:flex;
+}
+.socialMediaLogo {
+	height:2rem;
+	margin:0 .75rem;
+}
+
+/* slides home y headers */
+
+.slideHome,
+.headerSeccion {
+	height:678px;
+	background-size:cover;
+	background-position:center;
+}
+.slideHome1 {
+	background-image: url("img/carousel/01.jpg");
+}
+.slideHome2 {
+	background-image: url("img/carousel/02.jpg");
+}
+.slideHome3 {
+	background-image: url("img/carousel/03.jpg");
+}
+
+.headerMenu {
+	background-image: url("img/headers/menu.jpg");	
+}
