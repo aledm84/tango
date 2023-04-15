@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar {
-	min-height:90px;
+	min-height:120px;
 }
 
 .nav-item {
@@ -90,7 +90,7 @@ footer {
 .slideHome,
 .headerSeccion {
 	/*height:678px;*/
-	height:calc(100vh - 90px);
+	height:calc(100vh - 120px);
 	background-size:cover;
 	background-position:center;
 }
